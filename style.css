@@ -316,17 +316,8 @@ html {
   text-align: center;
   box-sizing: border-box;
 }
-.portfolio__site-pink{
-  background-image: url("../assets/177992919250605.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 800px;
-}
-.portfolio__site-violet{
-  background-image: url("../assets/landing_page_template_with_flowing_lines_design_2805.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 800px;
+.portfolio__site-image{
+  width: 800px;
 }
 /*Hobbies*/
 .hobbies{
