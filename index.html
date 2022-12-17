@@ -1,1 +1,208 @@
-<div>hello</div>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>cv</title>
+  <link rel="shortcut icon" href="images//siteicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/free-icon-command-3338658.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <div class="header__title-text">
+        <p class="header__title-greeting">Hello, I am</p>
+        <h1 class="header__title-name">Yakowleva Vlada</h1>
+        <p class="header__subtitle-profession">web developer</p>
+        <img class="header__portrait" src="./assets/Fase-black2.png" alt="Portrait of Vladya Yakovleva">
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item nav-item_color_black">Yakovleva</li>
+          <li class="nav-item nav-item_color_yellow"><a href="#About-me" class="nav-link">About me</a></li>
+          <li class="nav-item nav-item_color_light-orange"><a href="#Skills" class="nav-link">Skills</a></li>
+          <li class="nav-item nav-item_color_orange"><a href="#Code-exampl" class="nav-link">Code example</a></li>
+          <li class="nav-item nav-item_color_red"><a href="Education" class="nav-link">Education</a></li>
+          <li class="nav-item nav-item_color_raspberry"><a href="#Languages" class="nav-link">Languages</a></li>
+          <li class="nav-item nav-item_color_purple"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item nav-item_color_violet"><a href="#Hobbies" class="nav-link">Hobbies</a></li>
+          <li class="nav-item nav-item_color_blue"><a href="#Contact" class="nav-link">Contact</a></li>
+          <li class="nav-item nav-item_color_green"><a href="#Social" class="nav-link">Social</a></li>
+        </ul>
+      </nav>
+    </header>
+  <main class="main">
+    <section>
+      <div id="About-me" class="biography">
+        <div class="biography-general">
+          <h2 class="biography__title">About me</h2>
+          <p class="biography__text biography__text_style_italic">I am currently taking several web development courses and am gradually developing several projects for a portfolio. My goal is to achieve some success in the field of web programming and get high from creating cool websites. I like to feel the triumph of solving a difficult task and drink homemade coffee at the same time. My main strengths are stress resistance and high learning ability. I want to find my place in a friendly team of people like me.</p>
+          <h3 class="biography__title">Nickname: </h3>
+          <p class="biography__text">Yakowleva Vlada Vladislavovna</p>
+          <h3 class="biography__title">Age: </h3>
+          <p class="biography__text">23</p>
+          <h3 class="biography__title">Country of residence: </h3>
+          <p class="biography__text">Moldova</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="Skills" class="skills">
+        <div class="skills-general">
+          <h2 class="title-section">Skills</h2>
+          <ul>
+          <li class="skills__subtitle">HTML5</li>
+          <li class="skill-bar">
+            <div class="skills__scale skills__scale_color_blue" style="width:70%;"></div>
+          </li>
+          <li class="skills__subtitle">CSS3</li>
+          <li class="skill-bar">
+            <div class="skills__scale skills__scale_color_yellow" style="width:70%;"></div>
+          </li>
+          <li class="skills__subtitle">JS basic</li>
+          <li class="skill-bar">
+            <div class="skills__scale skills__scale_color_green" style="width:50%;"></div>
+          </li>
+          <li class="skills__subtitle">Git&Github</li>
+          <li class="skill-bar">
+            <div class="skills__scale skills__scale_color_raspberry" style="width:30%;"></div>
+          </li>
+          <li class="skills__subtitle">Adobe Photoshop</li>
+          <li class="skill-bar">
+            <div class="skills__scale skills__scale_color_violet" style="width:90%;"></div>
+          </li>
+          <li class="skills__subtitle">Figma</li>
+          <li class="skill-bar">
+            <div class="skills__scale skills__scale_color_orange" style="width:60%;"></div>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="Code-exampl" class="code-example">
+        <h2 class="title-section">Code example</h2>
+        <pre class="code-example__code">
+          let phrases = [
+  'send a funny gif to a friend',
+  'view discounts on air tickets',
+  'figure out what the rappers are singing about',
+  'Yuri Dud',
+  'arrange the books on the shelf by color',
+  'read about salaries in San Francisco'
+];
+
+function getRandomElement() {
+  let randIndex = Math.floor(Math.random() * phrases.length);
+console.log(randIndex);
+console.log(phrases[randIndex]);
+}
+
+getRandomElement();
+console.log(randIndex);
+console.log(phrases[randIndex]);
+        </pre>
+      </div>
+    </section>
+    <section>
+      <div id="Education" class="educations">
+        <h2 class="title-section">Education</h2>
+        <div class="education">
+          <p class="educations__time">2017-2022</p>
+          <p class="educations__plase">T.G. Shevchenko Pridnestrovian State University</p>
+        </div>
+        <div class="education">
+          <p class="educations__time">2020-2022</p>
+          <p class="educations__plase">Gripinsky 3d Graphics courses</p>
+        </div>
+        <div class="education">
+          <p class="educations__time">2022-Until now</p>
+          <p class="educations__plase">Yandex Practicum. Direction web developer</p>
+        </div>
+        <div class="education">
+          <p class="educations__time">2022-Until now</p>
+          <p class="educations__plase">RS School. Direction web developer</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="Languages" class="languages">
+        <h2 class="title-section">Languages</h2>
+        <div class="languag">
+          <div class="languag-bloc">
+            <div class="languages__cube"></div>
+            <p class="languages__tipe">English</p>
+            <p class="languages__level">Elementary</p>
+          </div>
+          <div class="languag-bloc">
+            <div class="languages__cube"></div>
+            <p class="languages__tipe">Russian</p>
+            <p class="languages__level">Advanced</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="Portfolio" class="portfolio">
+        <div class="portfolio-photo">
+          <h2 class="title-section">Portfolio</h2>
+          <div class="portfolio-site portfolio-site_color_pink">
+            <a class="portfolio__site-link portfolio__site-pink" href="#"></a>
+          </div>
+          <div class="portfolio-site portfolio-site_color_violet">
+            <a class="portfolio__site-link portfolio__site-violet" href="#"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="Hobbies" class="hobbies">
+        <h3 class="title-section">Hobbies</h3>
+        <div class="hobby">
+          <div class="hobby-element">
+            <p class="hobbies__subtitle">Sport</p>
+            <img class="hobbies__image hobbies__image_efect-sport" src="./assets/training-app-fit-pretty-woman-showing-smartphone-with-modern-fitness-application-for-tracking-sports-activity-posing-over-yellow-studio-wall.jpg" alt="The girl in the hall">
+          </div>
+          <div class="hobby-element">
+            <p class="hobbies__subtitle">Web design</p>
+            <img class="hobbies__image hobbies__image_efect-design" src="./assets/devices2.jpg" alt="Web site in figma">
+          </div>
+          <div class="hobby-element">
+            <p class="hobbies__subtitle">Table games</p>
+            <img class="hobbies__image hobbies__image_efect-games" src="./assets/the-company-of-young-people-playing-board-game.jpg" alt="Jenga">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="contacts" id="Contact">
+        <div class="contact">
+          <h2 class="title-section">Contact</h2>
+          <ul class="contact-list">
+            <li class="contact__platform-list"><p class="contact__text">Phone: <span class="contact__info">+37377952328</span></p></li>
+            <li class="contact__platform-list"><p class="contact__text">Email: <span class="contact__info">vladakowleva@gmail.com</span></p></li>
+            <li class="contact__platform-list"><p class="contact__text">Telegram: <a class="contact__info contact__info-link" href="https://t.me/Schizovi">@Schizovi</a></p></li>
+          </ul>
+          <ul class="contact-list">
+            <li class="contact__platform-list contact__platform-list_network"><a class="contact__platform-link" href="https://vk.com/schizovi"><img class="contact__platform-logo" src="./assets/vk_color_white.svg" alt="vk"></a></li>
+            <li class="contact__platform-list contact__platform-list_network"><a class="contact__platform-link" href="https://www.tiktok.com/@nt_kash?_t=8YCsN7J9OOE&_r=1"><img class="contact__platform-logo" src="./assets/tiktok-icon.svg" alt="tik-tok="></a></li>
+            <li class="contact__platform-list contact__platform-list_network"><a class="contact__platform-link" href="https://www.youtube.com/channel/UC8CT5XV29gmzTZZqJpP2eWA"><img class="contact__platform-logo" src="./assets/youtube-icon.svg" alt="youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="Social">
+    <div class="footer-info">
+      <p class="footer-info__date footer-info__date_size">© 2022 by Vlada Yakovleva <a class="footer-info__git-link" href="https://github.com/SchizoVIv/rsschool-cv/cv">GitHub</a></p>
+      <a class="footer-info__platform-link" href="https://rs.school/js/"><img class="footer-info__platform-logo-rss" src="./assets/rs_school_js.svg" alt="rsschool"></a>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
